@@ -1,0 +1,81 @@
+﻿body {
+    margin: 0px;
+    padding:0px;
+  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*this is the overall width of the page*/
+
+.cointainer {
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+
+header {
+    background-color:darkblue;
+
+   
+}
+
+/*this code makes the color of the header to show*/
+    header::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+.logo {
+    float:left;
+    padding-top:10px;
+    margin-bottom:10px;
+
+}
+
+nav {
+    float:right;
+   
+}
+
+    nav ul {
+        list-style:none;
+        
+       
+       
+        
+    }
+
+.ulc {
+    color:grey;
+}
+
+.fsch li{
+    display:none;
+ 
+}
+
+   
+    nav li {
+        display: inline-block;
+        margin-left: 10px;
+        padding-top: 35px;
+        color: grey;
+    }
+    nav a {
+        text-decoration:none;
+        color:antiquewhite;
+        padding:8px 16px;
+        color:grey;
+       
+    }
+    nav a:hover{
+       
+        color:white;
+        /*transition-delay:5s;*/
+    }
+
+    nav li a.active {
+        color: white;
+        background-color:black;
+    }

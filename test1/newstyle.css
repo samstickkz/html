@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+header{background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../test1/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}            
+ul{
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 15px;
+
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 1s ease-out;
+}
+
+
+ul li a:hover{
+    background-color: rgb(246, 252, 246);
+    color: black;
+    text-shadow: 1px;
+}
+
+ul li.active a{background-color: lavenderblush;
+    color: black;   
+}
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.center{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: lavenderblush;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.6s ease;
+    
+}
+
+.samstickkz{
+   
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+    
+    
+}
+.btn{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 1s ease;
+    
+
+}.btn:hover{
+    background-color: rgb(246, 252, 246);
+    color: black;
+    text-shadow: 1px;
+}

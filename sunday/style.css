@@ -1,0 +1,30 @@
+*
+/*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../sunday/frontimage.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    float: right;
+    margin-top: 14px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+    ul li {
+        display: inline-block;
+    }
+
+.menu-list {
+    background-color: #4CAF50;
+    color: white;
+}
+        */
